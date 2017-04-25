@@ -1,0 +1,67 @@
+nav{
+position:fixed;
+height: 150px;
+flex-direction: row;
+max-width: 1200px;
+}
+.box{
+margin: 10px;
+}
+.navBox{
+margin-right: 30px;
+}
+.address{
+position: fixed;
+max-width: 1200px;
+}
+.sidebar{
+min-width: 300px;
+}
+.content{
+min-width: 300px;
+}
+#container{
+max-width: 1200px;
+}
+#bodyContent{
+flex-direction: row;
+}
+.menuBox{
+margin-left: 10px;
+width:auto;
+box-shadow: 5px 5px 2px #888888;
+}
+.menuBox:hover{
+transition-delay: 0.2s;
+background-image: url(../images/background.jpg);
+background-size: cover;
+transition: all .5s;
+box-shadow: 5px 5px 2px #00FF00;
+}
+.button{
+margin-top: 20px;
+}
+.button:hover{
+transition: all .5s;
+box-shadow: 5px 5px 2px #00FF00;
+}
+#logo{
+position: relative;
+left: 2%;
+bottom: -40px;
+}
+
+#indiaSpiceNavName{
+font-size: 2.5em;
+margin: 0;
+}
+#bookingForm{
+margin-top: 150px;
+}
+.boxHover:hover{
+background-color: rgba(173, 126, 84, 0.8);
+transition: all 1s;
+}
+.imgWrapper{
+	width: 50%;
+}

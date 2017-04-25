@@ -1,0 +1,162 @@
+a{
+text-decoration: none;
+}
+#container{
+display: flex;
+/*TODO: add in justify-content: flex-start*/
+flex-direction: column;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+body{
+/*background-image: url(../images/background.jpg);
+background-size: cover;*/
+font-family: 'Open Sans', sans-serif;
+background: radial-gradient(rgba(252,190,139,0.4), #000);
+}
+nav{
+
+background:linear-gradient(to right, rgba(173, 126, 84, 1), #fff);
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: baseline;
+z-index: 100;
+}
+h2{
+font-size: 1.5em;
+text-align: center;
+}
+p{
+	padding-top: 20px;
+}
+p:first-letter{
+font-size: 1.5em;
+}
+.navBox{
+flex:1;
+text-decoration: none;
+color: black;
+height: 40px;
+text-align: center;
+font-size: 1.5em;
+margin-top: 10px;
+}
+.menuBox{
+width:100%;
+border-bottom: 2px black solid;
+border-radius: 10px;
+padding-top: 10px;
+}
+#logo{
+width: 100%;
+height: 80px;
+flex: 0.5;
+padding: 2px;
+}
+#logoWrapper{
+width: 80px;
+}
+#indiaSpiceNavName{
+width: 100%;
+text-align: center;
+font-size: 1.8em;
+flex: 2;
+font-family: 'Pacifico', cursive;
+}
+
+.box{
+flex:1;
+padding: 20px;
+background-color: rgba(173, 126, 84, 0.2);
+border-radius: 5px;
+font-size: 1em;
+font-weight: bold;
+min-width: 200px;
+border-bottom: 1px black solid;
+}
+.address{
+background:linear-gradient(to right, rgba(173, 126, 84, 1), #fff);
+position: relative;
+width: 100%;
+font-size: 1.2em;
+text-align: center;
+padding-top: 20px;
+z-index: 101;
+}
+#bookingForm{
+font-size: 1em;
+font-weight: bold;
+padding-top: 20px;
+padding-bottom: 20px;
+margin-top: 5px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+#bookingFormWrapper{
+min-width: 320px;
+}
+#bookingFormWrapper h2{
+font-size: 1.2em;
+padding-bottom: 2px;
+text-align: center;
+}
+#bookingForm ol li{
+background-color: #ddd;
+font-size: 1em;
+border: 2px black solid;
+font-weight: bold;
+margin-top: 5px;
+width: 100%;
+}
+.button {
+	margin-left: 35%;
+	margin-top: 10px;
+    background-color: rgba(193,39,45,1); 
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+}
+#bodyContent{
+display: flex;
+flex-direction: column;
+text-align: left;
+}
+video{
+position: relative;
+width: 100%;
+padding-bottom: 20px;
+}
+.imgWrapper{
+float: right;
+padding: 10px;
+border-radius: 50%;
+width: 50%;
+}
+#left{
+float: left;
+}
+#map{
+padding-top: 30px;
+text-align: center;
+font-size: 1.2em;
+}
+#mapImg{
+	width: 100%
+}
+
+@media screen and (min-width: 600px){
+	.box{
+	min-height: 300px;
+	}
+	.imgWrapper{
+	width: 30%;
+	}
+
+}
